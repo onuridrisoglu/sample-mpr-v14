@@ -20,8 +20,8 @@
 	</prerequisites>
 
 	<properties>
-		<vaadin.version>23.0.12</vaadin.version>
-		<flow.version>23.0.9</flow.version>
+		<vaadin.version>23.2.4</vaadin.version>
+		<flow.version>23.2.4</flow.version>
 		<vaadin8.version>8.14.3</vaadin8.version>
 		<jetty.plugin.version>9.3.9.v20160517</jetty.plugin.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -100,6 +100,13 @@
 			<artifactId>vaadin-themes</artifactId>
 			<version>${vaadin8.version}</version>
 		</dependency>
+		
+		<dependency>
+	      <groupId>javax.ws.rs</groupId>
+	      <artifactId>jsr311-api</artifactId>
+	      <version>1.1.1</version>
+	      <scope>provided</scope>
+	    </dependency>
 
 
 		<dependency>
